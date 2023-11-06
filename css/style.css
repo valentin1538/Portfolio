@@ -385,7 +385,16 @@ h1,h2,h3,h4,h5
         line-height: 45px;
         text-align: center;
         margin-right: 20px;
+        transition: all 0.4s ease-in;
     }
+
+#contact .fa:hover
+    {
+        background: #ffffff;
+        cursor: pointer;
+        color: #1c1444;
+    }
+
 #contact .form-control
     {
         background: transparent;
